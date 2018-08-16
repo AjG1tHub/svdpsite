@@ -1,4 +1,4 @@
-div {
+﻿div {
   text-align: center;
 }
 
@@ -6,7 +6,7 @@ body {
   font-family: helvetica;
   letter-spacing: 2px;
   text-decoration: none;
-  background-color: #DDDDDD;
+  background-color: #F1F1F1;
   border: 0px 5px 5px 5px;
 }
 
@@ -19,8 +19,6 @@ body {
       padding: 0;
       overflow: hidden;
       background-color: #3954C3;
-      position: -webkit-sticky;
-      position: sticky;
       top: 0;
   }
 
@@ -50,7 +48,6 @@ body {
       positon: relative;
   }
   #content img {
-  position: right top;
   width: 250px;
     top: 0px;
     right: 0px;
@@ -76,17 +73,23 @@ ul {
     padding: 0;
     overflow: hidden;
    }
+   
 body div p {
   font-size: 115%;
   letter-spacing: 1px;
 }
+
 .button {
   background-color: #3954C3;
 }
+
 .sidebyside {
-  width: 30%;
+  width: 28.7%;
   border-radius: 15px;
-  padding: 5px;
+  padding: 30px ;
+  float: left;
+  text-align: center;
+
 }
 
 li {
@@ -95,4 +98,27 @@ li {
 
 .food-table tr td {
   padding: 5px 5px 5px 5px;
+}
+.food-table {
+
+}
+
+.counter {
+	text-align: center;
+	font-size: 24px;
+	color: #000000;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+#rotate {
+	transform: rotate(90deg);
+	
+}
+
+footer {
+	text-align: center;
+}
+tr {
+	width:100%;
 }
